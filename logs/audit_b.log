@@ -1,0 +1,30 @@
+[xai-audit] 285 images selected, 0 already done, 285 to run
+[xai-audit] 10/285  8.0s per image  eta 37 min
+[xai-audit] 20/285  5.4s per image  eta 24 min
+[xai-audit] 30/285  4.5s per image  eta 19 min
+[xai-audit] 40/285  4.1s per image  eta 17 min
+[xai-audit] 50/285  3.8s per image  eta 15 min
+[xai-audit] 60/285  3.7s per image  eta 14 min
+[xai-audit] 70/285  3.5s per image  eta 12 min
+[xai-audit] 80/285  3.4s per image  eta 12 min
+[xai-audit] 90/285  3.3s per image  eta 11 min
+[xai-audit] 100/285  3.3s per image  eta 10 min
+[xai-audit] 110/285  3.2s per image  eta 9 min
+[xai-audit] 120/285  3.2s per image  eta 9 min
+[xai-audit] 130/285  3.2s per image  eta 8 min
+[xai-audit] 140/285  3.1s per image  eta 8 min
+[xai-audit] 150/285  3.1s per image  eta 7 min
+[xai-audit] 160/285  3.1s per image  eta 6 min
+[xai-audit] 170/285  3.0s per image  eta 6 min
+[xai-audit] 180/285  3.0s per image  eta 5 min
+[xai-audit] 190/285  3.0s per image  eta 5 min
+[xai-audit] 200/285  3.0s per image  eta 4 min
+[xai-audit] 210/285  3.0s per image  eta 4 min
+[xai-audit] 220/285  3.0s per image  eta 3 min
+[xai-audit] 230/285  3.0s per image  eta 3 min
+[xai-audit] 240/285  2.9s per image  eta 2 min
+[xai-audit] 250/285  2.9s per image  eta 2 min
+[xai-audit] 260/285  2.9s per image  eta 1 min
+[xai-audit] 270/285  2.9s per image  eta 1 min
+[xai-audit] 280/285  2.9s per image  eta 0 min
+[xai-audit] wrote outputs/pannuke_fpn_r18_fold1/xai_audit/rows.csv

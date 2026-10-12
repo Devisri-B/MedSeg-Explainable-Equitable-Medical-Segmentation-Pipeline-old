@@ -1,0 +1,3 @@
+/home/claude/medseg-rai/medseg/config.py:91: UserWarning: Ignoring unknown config key 'synthetic_n' for DataConfig
+  warnings.warn(f"Ignoring unknown config key {key!r} for {type(dc).__name__}")
+[explorer] 659 images, 114 with pictures -> outputs/pannuke_resnet50/xai_audit/explorer.html

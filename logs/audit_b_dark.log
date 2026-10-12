@@ -1,0 +1,6 @@
+[xai-audit] 50 images selected, 0 already done, 50 to run
+[xai-audit] 10/50  2.9s per image  eta 2 min
+[xai-audit] 30/50  2.4s per image  eta 1 min
+[xai-audit] 40/50  2.5s per image  eta 0 min
+[xai-audit] 50/50  2.4s per image  eta 0 min
+[xai-audit] wrote outputs/pannuke_fpn_r18_fold1/xai_audit/rows_dark.csv

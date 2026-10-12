@@ -1,0 +1,8 @@
+/home/claude/medseg-rai/medseg/config.py:91: UserWarning: Ignoring unknown config key 'synthetic_n' for DataConfig
+  warnings.warn(f"Ignoring unknown config key {key!r} for {type(dc).__name__}")
+[xai-audit] 50 images selected, 0 already done, 50 to run
+[xai-audit] 10/50  26.0s per image  eta 17 min
+[xai-audit] 20/50  25.8s per image  eta 13 min
+[xai-audit] 40/50  17.5s per image  eta 3 min
+[xai-audit] 50/50  18.9s per image  eta 0 min
+[xai-audit] wrote outputs/pannuke_resnet50/xai_audit/rows_dark.csv

@@ -1,0 +1,24 @@
+/home/claude/medseg-rai/medseg/config.py:91: UserWarning: Ignoring unknown config key 'synthetic_n' for DataConfig
+  warnings.warn(f"Ignoring unknown config key {key!r} for {type(dc).__name__}")
+[xai-audit] 200 images selected, 0 already done, 200 to run
+[xai-audit] 10/200  31.1s per image  eta 99 min
+[xai-audit] 20/200  28.2s per image  eta 85 min
+[xai-audit] 30/200  27.1s per image  eta 77 min
+[xai-audit] 40/200  26.7s per image  eta 71 min
+[xai-audit] 50/200  26.3s per image  eta 66 min
+[xai-audit] 60/200  26.1s per image  eta 61 min
+[xai-audit] 70/200  26.0s per image  eta 56 min
+[xai-audit] 80/200  25.9s per image  eta 52 min
+[xai-audit] 90/200  25.8s per image  eta 47 min
+[xai-audit] 100/200  25.7s per image  eta 43 min
+[xai-audit] 110/200  25.6s per image  eta 38 min
+[xai-audit] 120/200  25.5s per image  eta 34 min
+[xai-audit] 130/200  25.4s per image  eta 30 min
+[xai-audit] 140/200  25.3s per image  eta 25 min
+[xai-audit] 150/200  25.3s per image  eta 21 min
+[xai-audit] 160/200  25.2s per image  eta 17 min
+[xai-audit] 170/200  25.2s per image  eta 13 min
+[xai-audit] 180/200  25.2s per image  eta 8 min
+[xai-audit] 190/200  25.1s per image  eta 4 min
+[xai-audit] 200/200  25.1s per image  eta 0 min
+[xai-audit] wrote outputs/pannuke_resnet50/xai_audit/rows_monuseg.csv

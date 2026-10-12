@@ -1,0 +1,81 @@
+    method                          label  enrichment  enrichment_lo  enrichment_hi  gt_mass  gt_mass_lo  gt_mass_hi  concentration  concentration_lo  concentration_hi  stability_rho  stability_rho_lo  stability_rho_hi  deletion_auc  deletion_auc_lo  deletion_auc_hi  gain_vs_random  gain_vs_random_lo  gain_vs_random_hi  gain_vs_region_random  gain_vs_region_random_lo  gain_vs_region_random_hi  agree_with_logit  agree_with_logit_lo  agree_with_logit_hi  vs_logit_median_diff  vs_logit_p
+   cam@dec         Seg-Grad-CAM (decoder)       7.531          6.395          8.874    0.533       0.519       0.546          0.888             0.883             0.893          0.894             0.882             0.905         0.351            0.338            0.365           0.192              0.172              0.212                  0.031                     0.020                     0.043             0.991                0.990                0.991                -0.001       0.000
+ hires@dec       HiResCAM-style (decoder)      13.303         11.136         15.835    0.720       0.706       0.733          0.828             0.822             0.835          0.985             0.979             0.990         0.355            0.341            0.368           0.188              0.169              0.208                  0.028                     0.018                     0.038             0.786                0.775                0.797                -0.000       0.222
+  cam@enc4         Seg-Grad-CAM (encoder)       1.135          1.097          1.174    0.178       0.168       0.188          0.952             0.949             0.956          0.789             0.769             0.807         0.742            0.731            0.753          -0.199             -0.218             -0.179                 -0.359                    -0.378                    -0.341             0.138                0.122                0.152                -0.384       0.000
+hires@enc4       HiResCAM-style (encoder)       1.341          1.257          1.433    0.187       0.177       0.198          0.926             0.922             0.930          0.787             0.767             0.806         0.732            0.721            0.743          -0.189             -0.210             -0.167                 -0.350                    -0.368                    -0.330             0.123                0.107                0.138                -0.395       0.000
+       gxi               Gradient x Input       1.831          1.531          2.174    0.184       0.174       0.194          0.947             0.945             0.949          0.636             0.619             0.653         0.491            0.476            0.507           0.051              0.040              0.063                 -0.109                    -0.123                    -0.094             0.081                0.062                0.099                -0.112       0.000
+     logit Control: model's own score map       7.603          6.448          8.964    0.535       0.521       0.548          0.888             0.882             0.893          0.895             0.883             0.906         0.349            0.336            0.363           0.193              0.174              0.214                  0.033                     0.022                     0.045               NaN                  NaN                  NaN                   NaN         NaN
+{
+  "n_images": 622,
+  "dice_gap_by_tissue": {
+    "n_groups": 19,
+    "best": 0.8150355733866913,
+    "worst": 0.6038204073559166,
+    "best_group": "Bladder",
+    "worst_group": "Bile Duct",
+    "gap": 0.21121516603077473,
+    "ratio": 0.7408515984730346,
+    "cv": 0.09379461332851954
+  },
+  "stability_gap_by_tissue": {
+    "n_groups": 19,
+    "best": 0.8775753968605187,
+    "worst": 0.7076065878442335,
+    "best_group": "Testis",
+    "worst_group": "Bladder",
+    "gap": 0.1699688090162852,
+    "ratio": 0.8063199929893887,
+    "cv": 0.06849412996640203
+  },
+  "spearman_group_dice_vs_group_stability_tissue": -0.18596491228070175
+}
+{
+  "uncertainty": {
+    "auroc": 0.8640627795812991,
+    "auroc_lo": 0.8236532849465134,
+    "auroc_hi": 0.9009039093642911,
+    "gain_over_uncertainty": 0.0,
+    "gain_lo": 0.0,
+    "gain_hi": 0.0
+  },
+  "uncertainty + stain-shift prediction stability": {
+    "auroc": 0.8643183967689987,
+    "auroc_lo": 0.8241092041267558,
+    "auroc_hi": 0.9009186137283736,
+    "gain_over_uncertainty": 0.0002556171876996194,
+    "gain_lo": -0.0032279517512321166,
+    "gain_hi": 0.003939801356877997
+  },
+  "explanation signals only": {
+    "auroc": 0.7689987474757802,
+    "auroc_lo": 0.7000516324498938,
+    "auroc_hi": 0.8299627288083479,
+    "gain_over_uncertainty": -0.09506403210551884,
+    "gain_lo": -0.157186489389267,
+    "gain_hi": -0.03867155405208028
+  },
+  "uncertainty + explanation": {
+    "auroc": 0.8584647631706757,
+    "auroc_lo": 0.81724477311904,
+    "auroc_hi": 0.9010703707661724,
+    "gain_over_uncertainty": -0.005598016410623408,
+    "gain_lo": -0.033032251895851315,
+    "gain_hi": 0.01881033226654177
+  },
+  "uncertainty + stain-shift + explanation": {
+    "auroc": 0.8576979116075765,
+    "auroc_lo": 0.816121973976932,
+    "auroc_hi": 0.9004963444672981,
+    "gain_over_uncertainty": -0.006364867973722599,
+    "gain_lo": -0.03552794399689964,
+    "gain_hi": 0.01858151517862826
+  },
+  "all of the above + deletion test": {
+    "auroc": 0.8548094373865699,
+    "auroc_lo": 0.8068589810150043,
+    "auroc_hi": 0.9005593104635262,
+    "gain_over_uncertainty": -0.009253342194729175,
+    "gain_lo": -0.040610316236000615,
+    "gain_hi": 0.020983094113042666
+  }
+}

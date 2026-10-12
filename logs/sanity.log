@@ -1,0 +1,34 @@
+/home/claude/medseg-rai/medseg/config.py:91: UserWarning: Ignoring unknown config key 'synthetic_n' for DataConfig
+  warnings.warn(f"Ignoring unknown config key {key!r} for {type(dc).__name__}")
+        cam@dec        hires@dec        cam@enc4        hires@enc4           gxi         logit       
+           mean    std      mean    std     mean    std       mean    std   mean    std   mean    std
+stage                                                                                                
+all      -0.048  0.335     0.793  0.204    0.009  0.276      0.234  0.260  0.357  0.254 -0.016  0.393
+decoder  -0.270  0.300     0.469  0.244    0.181  0.483      0.332  0.275  0.437  0.253 -0.073  0.441
+head     -0.310  0.342     0.707  0.328   -0.293  0.477     -0.051  0.385  0.776  0.134 -0.295  0.350
+{
+  "head": {
+    "cam@dec": -0.31018483672849945,
+    "hires@dec": 0.7074233753723415,
+    "cam@enc4": -0.29323444371622687,
+    "hires@enc4": -0.050853541436471306,
+    "gxi": 0.7755242214820728,
+    "logit": -0.29483147167051504
+  },
+  "decoder": {
+    "cam@dec": -0.2701198786202776,
+    "hires@dec": 0.46933699249504335,
+    "cam@enc4": 0.18070111864954103,
+    "hires@enc4": 0.33246225598730256,
+    "gxi": 0.43727852494145214,
+    "logit": -0.07312972116303965
+  },
+  "all": {
+    "cam@dec": -0.047519751152232836,
+    "hires@dec": 0.7927722094495431,
+    "cam@enc4": 0.00856860453605786,
+    "hires@enc4": 0.23396544029660366,
+    "gxi": 0.3574544573296211,
+    "logit": -0.016316022619889285
+  }
+}

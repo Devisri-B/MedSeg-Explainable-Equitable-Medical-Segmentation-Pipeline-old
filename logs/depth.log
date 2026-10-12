@@ -1,0 +1,12 @@
+/home/claude/medseg-rai/medseg/config.py:91: UserWarning: Ignoring unknown config key 'synthetic_n' for DataConfig
+  warnings.warn(f"Ignoring unknown config key {key!r} for {type(dc).__name__}")
+[depth] 10/100 20.1s/img eta 30 min
+[depth] 20/100 20.0s/img eta 27 min
+[depth] 30/100 20.0s/img eta 23 min
+[depth] 40/100 20.3s/img eta 20 min
+[depth] 50/100 20.3s/img eta 17 min
+[depth] 60/100 20.3s/img eta 14 min
+[depth] 70/100 20.4s/img eta 10 min
+[depth] 80/100 20.2s/img eta 7 min
+[depth] 90/100 20.1s/img eta 3 min
+[depth] 100/100 20.0s/img eta 0 min

@@ -1,0 +1,8 @@
+/home/claude/medseg-rai/medseg/config.py:91: UserWarning: Ignoring unknown config key 'synthetic_n' for DataConfig
+  warnings.warn(f"Ignoring unknown config key {key!r} for {type(dc).__name__}")
+[lrp-ablation] 10 27.7s/img
+[lrp-ablation] 20 27.4s/img
+[lrp-ablation] 30 27.2s/img
+[lrp-ablation] 40 27.2s/img
+[lrp-ablation] 50 27.2s/img
+[lrp-ablation] 60 27.1s/img
